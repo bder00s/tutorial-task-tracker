@@ -4,7 +4,10 @@ function Tasks({ tasks, onDelete }) {
   return (
     <>
       {tasks.map((task) => (
-        <Task key={task.id} task={task} onDelete={onDelete} />
+        <Task 
+        key={task.id} 
+        task={task} 
+        />
       ))}
     </>
   );

@@ -11,7 +11,7 @@ function Task({ task, onDelete }) {
             color: "red",
             cursor: "pointer"
           }}
-          onClick={onDelete}
+          onClick={() => onDelete(task.id)} 
         />
       </h3>
 
